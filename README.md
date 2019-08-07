@@ -1,2 +1,3 @@
-# Book-Dumps
-Books read by me. Exercises, Assignments, Notes.
+# Scholastic
+
+> Books, MOOCs explored/completed by me. Exercises, Assignments, Notes.
