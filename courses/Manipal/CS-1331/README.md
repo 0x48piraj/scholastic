@@ -1,6 +1,6 @@
 # CS-1331: Data Structures in C
 
-## Week 1-3 (Arrays)
+### Week 1-3 (Arrays)
 
 1. Sorting
    * Sorting `int arr[]` ([sort.c](sort.c))

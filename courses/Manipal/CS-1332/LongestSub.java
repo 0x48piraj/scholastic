@@ -2,7 +2,9 @@ import java.util.HashSet;
   
 class LongestSubSeq { 
     // Returns length of the longest consecutive subsequence 
-    static int findLongestConseqSubseq(int arr[],int n) { 
+    public static void main(String args[]) { 
+        int arr[] =  {1, 9, 3, 10, 4, 20, 2}; 
+        int n = arr.length;
         HashSet<Integer> S = new HashSet<Integer>(); 
         int ans = 0; 
         for (int i=0; i<n; ++i) // Hash all the array elements 
@@ -20,12 +22,6 @@ class LongestSubSeq {
                     ans = j-arr[i]; 
             } 
         } 
-        return ans; 
-    } 
-    // Testing
-    public static void main(String args[]) { 
-        int arr[] =  {1, 9, 3, 10, 4, 20, 2}; 
-        int n = arr.length; 
-        System.out.println("Length of the longest consecutive sequence : " + findLongestConseqSubseq(arr,n)); 
+        System.out.println("Length of the longest consecutive sequence : " + ans); 
     } 
 } 
